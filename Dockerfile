@@ -14,4 +14,6 @@ WORKDIR /home/dev
 ENV HOME /home/dev
 ENV LC_ALL en_US.UTF-8
 
+ADD .vimrc /home/dev/.vimrc
+
 CMD bash
