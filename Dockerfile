@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+ENV UPDATED Sat Dec  6 20:03:15 MSK 2014
 
 RUN apt-get update && \
     apt-get install -y vim git
